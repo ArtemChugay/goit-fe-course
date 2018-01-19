@@ -1,7 +1,7 @@
 body{
   text-align: center;
     background-color: #ccf;
-    background-image: url(D:/first_git_project/goit-fe-course/html-css/module-2/img/BG1.png);
+    background-image: url(D:/GOIT/goit-fe-course/html-css/module-2/img/BG1.png);
       background-repeat: no-repeat;
       background-position: center center;
       background-attachment: local;
@@ -22,7 +22,7 @@ body{
   margin-left: -10px;
   width: 420px;
   height: 100px;
-  background-image: url(D:/first_git_project/goit-fe-course/html-css/module-2/img/plane.png);
+  background-image: url(D:/GOIT/goit-fe-course/html-css/module-2/img/plane.png);
 }
 h1 {
   text-align: left;
@@ -52,4 +52,8 @@ h1 {
 
   p{
     text-align: left;
+  }
+  .column{
+    column-count: 2;
+
   }
