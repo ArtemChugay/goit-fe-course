@@ -1,5 +1,5 @@
 body{
-  background-image: url(../img/homework-4.png);
+  background-image: url(../img/homework-4.jpg);
 }
 
 .wrapper{
@@ -17,7 +17,7 @@ body{
 
 .first_block{
   padding-bottom: 50px;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid #D3D3D3;
 }
 
 .AGENCY{
