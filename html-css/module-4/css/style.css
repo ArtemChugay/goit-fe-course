@@ -1,0 +1,126 @@
+body{
+  background-image: url(../img/homework-4.png);
+}
+
+.wrapper{
+  width: 1024px;
+  height: auto;
+  background-color: #fff;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 220px;
+  margin-bottom: 260px;
+  padding-top: 110px;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+.first_block{
+  padding-bottom: 50px;
+  border-bottom: 1px solid black;
+}
+
+.AGENCY{
+  display: inline-block;
+  width: 640px;
+  margin-right: 50px;
+
+}
+
+.Our_Principles{
+  display: inline-block;
+  vertical-align: top;
+  width: 200px;
+
+}
+
+.img{
+  background-image: url(../img/plane.png);
+  width: 360px;
+  height: 280px;
+  float: left;
+  margin-right: 25px;
+  margin-bottom: 25px;
+}
+
+ul{
+  counter-reset:list;
+}
+
+.point:before{
+  display:inline-block;
+  text-align: center;
+  width: 30px;
+  height: 30px;
+  counter-increment:list;
+  content: counter(list);
+  border-radius: 50%;
+    background-color: #1789FC;
+    color: #fefefe;
+}
+
+.point{
+  display: inline-block;
+}
+
+.point_name{
+  display: inline-block;
+}
+.point_text{
+  margin-left: auto;
+}
+
+.second_block{
+  padding-top: 60px;
+  padding-bottom: 90px;
+
+}
+.OFFER{
+display: inline-block;
+width: 640px;
+margin-right: 50px;
+}
+
+.Testimonial{
+  display: inline-block;
+    vertical-align: top;
+  width: 200px;
+}
+
+.column{
+  column-count: 2;
+  column-fill: 30px;
+}
+
+.bold{
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+
+.wer::before{
+  content: '\2192';
+  color: blue;
+}
+
+.wer{
+  padding-top: 30px;
+  width: 220px;
+}
+
+h1, h2{
+  font-size: 160%;
+  font-weight: 700;
+  margin-bottom: 50px;
+}
+h3{
+  font-weight: bold;
+}
+
+.quote{
+  width: 210px;
+  height: 190px;
+  background-color: rgba(255, 0, 0, 0.1);
+  border-radius: 5px;
+  text-align: center;
+}
