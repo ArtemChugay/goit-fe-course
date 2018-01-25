@@ -1,5 +1,7 @@
 body{
-  background-image: url(../img/homework-4.jpg);
+  background-image: url('../img/Homework-4.jpg');
+  background-repeat: no-repeat;
+background-size: cover;
 }
 
 .wrapper{
@@ -48,14 +50,16 @@ ul{
 }
 
 .point:before{
-  display:inline-block;
-  text-align: center;
-  width: 30px;
-  height: 30px;
-  counter-increment:list;
-  content: counter(list);
-  border-radius: 50%;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    counter-increment:list;
+    content: counter(list);
+    border-radius: 50%;
     background-color: #1789FC;
+    background-position: center;
+    background-size: contain;
+    text-align: center;
     color: #fefefe;
 }
 
@@ -65,9 +69,12 @@ ul{
 
 .point_name{
   display: inline-block;
+  padding-top: 10px;
+  margin-left: 6px;
 }
 .point_text{
-  margin-left: auto;
+padding-left: 40px;
+padding-top: 15px;
 }
 
 .second_block{
@@ -106,6 +113,7 @@ margin-right: 50px;
 .wer{
   padding-top: 30px;
   width: 220px;
+  font-weight: bold;
 }
 
 h1, h2{
@@ -117,10 +125,36 @@ h3{
   font-weight: bold;
 }
 
+
 .quote{
-  width: 210px;
-  height: 190px;
+  width: 200px;
+  height: auto;
   background-color: rgba(255, 0, 0, 0.1);
   border-radius: 5px;
+
+}
+
+.blockquote:before {
+    color: black;
+    content: "\201C";
+
+}
+
+.blockquote:after {
+    color: black;
+    content: "\201D"; /* Непечатаемый символ справа */
+}
+
+
+.mark{
   text-align: center;
+  padding-top: 10px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.small{
+  text-align: center;
+  font-size: 12px;
+  padding-top: 5px;
 }
