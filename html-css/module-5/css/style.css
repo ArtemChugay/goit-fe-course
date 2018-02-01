@@ -1,0 +1,18 @@
+@import "header.css";
+@import "Slaider.css";
+body{
+  background-image: url('../img/bgi.png');
+  background-size: cover;
+}
+.wrapper{
+  width: 1024px;
+  /* position: relative; */
+  min-height: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  padding-top: 45px;
+  padding-bottom: 130px;
+  padding-left: 60px;
+  padding-right: 60px;
+}
