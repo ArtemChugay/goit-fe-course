@@ -1,8 +1,9 @@
 .slaider{
   display: block;
   width: 900px;
-  height: auto;
+  height: 580px;
   position: relative;
+  margin-bottom: 30px;
 }
 
 .first {
@@ -121,9 +122,9 @@ position: absolute;
 
 
 .destinations {
-  height: 270px;
+  height: 380px;
   position: relative;
-  top: 600px;
+  /* top: 600px; */
   padding-top: 30px;
 }
 

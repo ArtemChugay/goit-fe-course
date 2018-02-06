@@ -6,8 +6,8 @@ body{
 }
 .wrapper{
   width: 1024px;
-  /* position: relative; */
-  min-height: 1200px;
+  height: auto;
+  position: relative;
   margin-left: auto;
   margin-right: auto;
   background-color: white;
@@ -15,4 +15,27 @@ body{
   padding-bottom: 130px;
   padding-left: 60px;
   padding-right: 60px;
+}
+
+.topbutton {
+width:30px;
+height: 30px;
+border-radius: 50%;
+background: blue;
+position:fixed;
+bottom:25px;
+right: 120px;
+font-family:verdana;
+font-size:12px;
+}
+
+.topbutton:after{
+  content: '\2191';
+  color: white;
+  font-size: 16px;
+  text-align: left;
+}
+
+.topbutton:hover{
+  background-color: #AFEEEE;
 }
