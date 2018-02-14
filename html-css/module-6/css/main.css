@@ -1,0 +1,209 @@
+.main{
+  width: 1200px;
+  /* background-color: grey; */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.first{
+  text-align: center;
+  font-size: 24px;
+  padding-bottom: 25px;
+}
+.first::first-letter{
+  text-transform: uppercase;
+}
+
+.second{
+  text-align: center;
+  font-size: 30px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.border{
+  width: 60px;
+  height: 40px;
+  border-bottom: 2px solid #f38181;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 60px;
+}
+
+
+.flex{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  height: 240px;
+  align-content: space-between;
+  margin-bottom: 140px;
+}
+.service_item{
+  display: flex;
+  width: 360px;
+  justify-content: space-around;
+}
+
+.icon{
+  width: 30px;
+  height: 30px;
+}
+
+.one{
+  background-image: url('../img/photography.png');
+  background-size: cover;
+}
+
+.two{
+  background-image: url('../img/design.png');
+  background-size: cover;
+}
+
+.tree{
+  background-image: url('../img/creativity.png');
+  /* background-size: cover; */
+}
+.fourth{
+  background-image: url('../img/seo.png');
+  background-size: cover;
+}
+
+.five{
+  background-image: url('../img/css.png');
+  background-size: cover;
+}
+
+.six{
+  background-image: url('../img/digital.png');
+  background-size: cover;
+}
+
+.service_text{
+  width: 270px;
+}
+
+.service_item_title{
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.text{
+  width: 950px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding-bottom: 35px;
+}
+
+.team_member{
+  padding-top: 35px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.img{
+  display: flex;
+  width: 380px;
+  height: 470px;
+  line-height: 235px;
+}
+
+.img:hover >.sprite{
+  display: flex;
+}
+
+.matthew{
+  background-image: url('../img/1st.png');
+  background-position: center;
+}
+
+.christopher{
+  background-image: url('../img/2-th.png');
+  background-position: center;
+}
+
+.michael{
+  background-image: url('../img/3-th.png');
+  background-position:top;
+}
+
+.sprite{
+  display: none;
+  width: 380px;
+  height: 470px;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+.facebook{
+  width: 55px;
+  height: 55px;
+  background-image: url('../img/facebook.png');
+  background-repeat: no-repeat;
+  background-position: center;
+    background-color: #fce38a;
+}
+
+.facebook:hover{
+  background-color: #95e1d3;
+}
+
+.twitter{
+  width: 55px;
+  height: 55px;
+  background-image: url('../img/twitter.png');
+  background-repeat: no-repeat;
+  background-position: center;
+    background-color: #fce38a;
+}
+
+.twitter:hover{
+  background-color: #95e1d3;
+}
+
+.pinterest{
+  width: 55px;
+  height: 55px;
+  background-image: url('../img/pinterest.png');
+  background-repeat: no-repeat;
+  background-position: center;
+    background-color: #fce38a;
+}
+
+.pinterest:hover{
+  background-color: #95e1d3;
+}
+
+.instagram{
+  width: 55px;
+  height: 55px;
+  background-image: url('../img/instagram.png');
+  background-repeat: no-repeat;
+  background-position: center;
+    background-color: #fce38a;
+}
+
+.instagram:hover{
+  background-color: #95e1d3;
+}
+
+.name{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+
+.name_font{
+  text-transform: uppercase;
+}
+
+.position{
+  color: grey;
+  text-align: center;
+  margin-top: 20px;
+}
